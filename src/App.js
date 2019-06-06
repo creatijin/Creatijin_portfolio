@@ -21,9 +21,14 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      
+      id:null,
+      changeTo:false
     }
   }
+  stateCallBack = (i,v) => {
+    this.setState({id:i, changeTo: v})
+  }
+
   render() {
     const slides = [
       {
@@ -111,10 +116,10 @@ class App extends Component {
           </div>
         </div>
         <div className="section section_02" id="Page5">
-          <CitiesSlider slides={slides} />
+          <CitiesSlider slides={slides} stateData={this.stateCallBack}/>
         </div>
         <div className="section section_03" id="Page6">
-          <ProjectList />
+          <ProjectList stateData={this.stateCallBack} dataId={this.state.id} dataTo={this.state.changeTo}/>
         </div>
         {/* 5,6 page */}
         <div className="section subSection" id="Page7">

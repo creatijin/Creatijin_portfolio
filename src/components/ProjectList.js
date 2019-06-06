@@ -12,7 +12,6 @@ class ProjectList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      id:null,
       projectlist: [
         {
           company: 'SPAAAADE',
@@ -39,13 +38,23 @@ class ProjectList extends Component {
           ],
           bg: pl_01 ,
           txt: '신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는'
+        },
+        {
+          company: 'SPAAAADE',
+          name: '바비리스',
+          technology: [
+              icon_html,
+              icon_css,
+              icon_js,
+              icon_jquery,
+              icon_react
+          ],
+          bg: pl_01 ,
+          txt: '신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는'
         }
-      ],
-      changeTo: null
+      ]
     }
   }
-
-
   
   projectLists = (e) => {
     
@@ -53,7 +62,7 @@ class ProjectList extends Component {
 
     const projectLists = projectInfo.map((info,index) => (
       <li className='project_list' key={index} onClick={()=> {
-        this.setState({id:index, changeTo: true})
+        this.props.stateData(index, true)
       }} style={{ backgroundImage: `url(${info.bg})` }}>
         <h3>{info.name}</h3>
         <p>read more</p>
@@ -61,21 +70,13 @@ class ProjectList extends Component {
     ))
     return projectLists
   }
-  
-  projectClickEvent = ()=> {
-    this.setState({
-      changeTo: true
-    });
-  }
-  changeToClick = ()=> {
-    this.setState({ changeTo: false });
-  }
 
   projectpop = () => {
-    const id = this.state.id;
+    const id = this.props.dataId;
+    const change = this.props.dataTo;
     const projectInfo = this.state.projectlist;
     const projectpops = projectInfo.map((info,index) => (
-      <li className={`pop_list ${id === index && this.state.changeTo === true ? "selected" : ""}`} key={index}>
+      <li className={`pop_list ${id === index && change === true ? "selected" : ""}`} key={index}>
         <div className="pop_img" style={{ backgroundImage: `url(${info.bg})` }}></div>
         <div className="pop_txt_wrap">
           <h3>{info.company}</h3>
@@ -110,7 +111,7 @@ class ProjectList extends Component {
         <ul className='projectList_ul'>
           {this.projectLists()}
         </ul>
-        <ul className={classNames('project_pop', { 'selected': this.state.changeTo })} onClick={this.changeToClick}>
+        <ul className={classNames('project_pop', { 'selected': this.props.dataTo })} onClick={()=> {this.props.stateData(null, false)}}>
           {this.projectpop()}
         </ul>
       </>
