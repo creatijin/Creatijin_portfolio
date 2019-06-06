@@ -1,0 +1,1742 @@
+.logo_box {
+  /*  position: absolute;*/
+    display: block;
+    width: 290px;
+    height: 380px;
+    margin: 7em auto;
+    text-align: center;
+  /*  top:50%;*/
+  /*  left: 50%;*/
+   /* margin-left: 65px; */
+  /*  margin-top: -250px;*/
+  }
+  
+  
+  .polygon_ul {
+    position: relative;
+    width: 290px;
+    height: 365.7px;
+    margin: 0;
+    padding: 0;
+    margin-left: -25px;
+  }
+  .polygon {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 51px solid #fff;
+    border-left: 0px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+  /*  transition: all 0.5s;*/
+  }
+  .polygon.oneline {
+    left: 234px;
+    top: 60px;
+  }
+  
+  
+  
+  .polygon.oneline:nth-child(1) {
+    left: 234px;
+    top: 60px;
+  }
+  .polygon.oneline:nth-child(2) {
+    left: 218px;
+    top: 35px;
+    transform: rotate(-60deg);
+    animation: polygon_2 ease .15s;
+  }
+  .polygon.oneline:nth-child(3) {
+    left: 188px;
+    top: 34px;
+    transform: rotate(-120deg);
+    animation: polygon_3 ease .3s;
+  }
+  .polygon.oneline:nth-child(4) {
+    left: 173px;
+    top: -6px;
+    transform: rotate(-180deg);
+    animation: polygon_4 ease .6s;
+  }
+  .polygon.oneline:nth-child(5) {
+    animation: polygon_5 ease .6s;
+    left: 131px;
+    top: -14px;
+    transform: rotate(-240deg);
+  }
+  .polygon.oneline:nth-child(6) {
+    animation: polygon_6 ease .75s;
+    left: 104px;
+    top: 18px;
+    transform: rotate(-300deg);
+  }
+  .polygon.oneline:nth-child(7) {
+    animation: polygon_7 ease 1.5s;
+    left: 63px;
+    top: 25px;
+    transform: rotate(-360deg);
+  }
+  .polygon.oneline:nth-child(8) {
+    animation: polygon_8 ease 1.5s;
+    left: 49px;
+    top: 64px;
+    transform: rotate(-420deg);
+  }
+  .polygon.oneline:nth-child(9) {
+    animation: polygon_9 ease 1.5s;
+    left: 20px;
+    top: 65px;
+    transform: rotate(-480deg);
+  }
+  .polygon.oneline:nth-child(10) {
+    animation: polygon_10 ease 1.5s;
+    left: 6px;
+    top: 90px;
+    transform: rotate(-540deg);
+  }
+  .polygon.oneline:nth-child(11) {
+    animation: polygon_11 ease 3s;
+    left: 20px;
+    top: 115px;
+    transform: rotate(-600deg);
+  }
+  .polygon.oneline:nth-child(12) {
+    animation: polygon_12 ease 3s;
+    left: -6px;
+    top: 147px;
+    transform: rotate(-660deg);
+  }
+  .polygon.oneline:nth-child(13) {
+    animation: polygon_13 ease 3s;
+    left: 7px;
+    top: 187px;
+    transform: rotate(-720deg);
+  }
+  .polygon.oneline:nth-child(14) {
+    animation: polygon_14 ease 3s;
+    left: -6px;
+    top: 227px;
+    transform: rotate(-780deg);
+  }
+  .polygon.oneline:nth-child(15) {
+    animation: polygon_15 ease 3s;
+    left: 20px;
+    top: 259px;
+    transform: rotate(-840deg);
+  }
+  .polygon.oneline:nth-child(16) {
+    animation: polygon_16 ease 3s;
+    left: 61px;
+    top: 252px;
+    transform: rotate(-900deg);
+  }
+  .polygon.oneline:nth-child(17) {
+    animation: polygon_17 ease 3s;
+    left: 75px;
+    top: 277px;
+    transform: rotate(-960deg);
+  }
+  .polygon.oneline:nth-child(18) {
+    animation: polygon_18 ease 3s;
+    left: 104px;
+    top: 277px;
+    transform: rotate(-1020deg);
+  }
+  .polygon.oneline:nth-child(19) {
+    animation: polygon_19 ease 3s;
+    left: 118px;
+    top: 316px;
+    transform: rotate(-1080deg);
+  }
+  .polygon.oneline:nth-child(20) {
+    animation: polygon_20 ease 3s;
+    left: 159px;
+    top: 323px;
+    transform: rotate(-1140deg);
+  }
+  .polygon.oneline:nth-child(21) {
+    animation: polygon_21 ease 3s;
+    left: 188px;
+    top: 292px;
+    transform: rotate(-1200deg);
+  }
+  .polygon.oneline:nth-child(22) {
+    animation: polygon_22 ease 6s;
+    left: 229px;
+    top: 284px;
+    transform: rotate(-1260deg);
+  }
+  .polygon.oneline:nth-child(23) {
+    animation: polygon_23 ease 6s;
+    left: 244px;
+    top: 245px;
+    transform: rotate(-1320deg);
+  }
+  
+  
+  
+  @keyframes polygon_2{
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    100% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+  }
+  @keyframes polygon_3{
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    50% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    100% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+  }
+  @keyframes polygon_4{
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    25% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    50% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    75% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    100% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+  }
+  @keyframes polygon_5 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    25% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    50% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    75% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    100% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+  }
+  /*********1line**********/
+  @keyframes polygon_6 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    20% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    40% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    60% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    80% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    100% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+  }
+  @keyframes polygon_7 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    10% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    20% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    30% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    40% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    50% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    60% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    100% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes polygon_8 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    10% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    20% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    30% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    40% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    50% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    60% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    70% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    100% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+  }
+  @keyframes polygon_9 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    10% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    20% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    30% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    40% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    50% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    60% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    70% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    80% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    100% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+  }
+  @keyframes polygon_10 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    10% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    20% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    30% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    40% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    50% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    60% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    70% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    80% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    90% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    100% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+  }
+  /*********2line**********/
+  @keyframes polygon_11 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    100% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+  }
+  @keyframes polygon_12 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    100% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+  }
+  @keyframes polygon_13 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    100% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+  }
+  @keyframes polygon_14 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    100% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+  }
+  @keyframes polygon_15 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    70% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    100% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+  }
+  @keyframes polygon_16 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    70% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    75% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    100% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+  }
+  /*********3line**********/
+  @keyframes polygon_17 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    70% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    75% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    80% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+    100% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+  }
+  @keyframes polygon_18 {
+    0% {
+      transform: rotate(0deg);
+      left: 234px;
+      top: 60px;
+    }
+    5% {
+      transform: rotate(-60deg);
+      left: 218px;
+      top: 35px;
+    }
+    10% {
+      transform: rotate(-120deg);
+      left: 176px;
+      top: 26px;
+    }
+    15% {
+      transform: rotate(-180deg);
+      left: 173px;
+      top: -6px;
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    70% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    75% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    80% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+    85% {
+      left: 104px;
+      top: 277px;
+      transform: rotate(-1020deg);
+    }
+    100% {
+      left: 104px;
+      top: 277px;
+      transform: rotate(-1020deg);
+    }
+  }
+  @keyframes polygon_19 {
+    0% {
+      left: 234px;
+      top: 60px;
+      transform: rotate(0deg);
+    }
+    5% {
+      left: 218px;
+      top: 35px;
+      transform: rotate(-60deg);
+    }
+    10% {
+      left: 176px;
+      top: 26px;
+      transform: rotate(-120deg);
+    }
+    15% {
+      left: 173px;
+      top: -6px;
+      transform: rotate(-180deg);
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    70% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    75% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    80% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+    85% {
+      left: 104px;
+      top: 277px;
+      transform: rotate(-1020deg);
+    }
+    90% {
+      left: 118px;
+      top: 316px;
+      transform: rotate(-1080deg);
+    }
+    100% {
+      left: 118px;
+      top: 316px;
+      transform: rotate(-1080deg);
+    }
+  }
+  @keyframes polygon_20 {
+    0% {
+      left: 234px;
+      top: 60px;
+      transform: rotate(0deg);
+    }
+    5% {
+      left: 218px;
+      top: 35px;
+      transform: rotate(-60deg);
+    }
+    10% {
+      left: 176px;
+      top: 26px;
+      transform: rotate(-120deg);
+    }
+    15% {
+      left: 173px;
+      top: -6px;
+      transform: rotate(-180deg);
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    70% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    75% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    80% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+    85% {
+      left: 104px;
+      top: 277px;
+      transform: rotate(-1020deg);
+    }
+    90% {
+      left: 118px;
+      top: 316px;
+      transform: rotate(-1080deg);
+    }
+    95% {
+      left: 159px;
+      top: 323px;
+      transform: rotate(-1140deg);
+    }
+    100% {
+      left: 159px;
+      top: 323px;
+      transform: rotate(-1140deg);
+    }
+  }
+  @keyframes polygon_21 {
+    0% {
+      left: 234px;
+      top: 60px;
+      transform: rotate(0deg);
+    }
+    5% {
+      left: 218px;
+      top: 35px;
+      transform: rotate(-60deg);
+    }
+    10% {
+      left: 176px;
+      top: 26px;
+      transform: rotate(-120deg);
+    }
+    15% {
+      left: 173px;
+      top: -6px;
+      transform: rotate(-180deg);
+    }
+    20% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    25% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    30% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    35% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    40% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    45% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    50% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    55% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    60% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    65% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    70% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    75% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    80% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+    85% {
+      left: 104px;
+      top: 277px;
+      transform: rotate(-1020deg);
+    }
+    90% {
+      left: 118px;
+      top: 316px;
+      transform: rotate(-1080deg);
+    }
+    95% {
+      left: 159px;
+      top: 323px;
+      transform: rotate(-1140deg);
+    }
+    100% {
+      left: 188px;
+      top: 292px;
+      transform: rotate(-1200deg);
+    }
+  }
+  /*********4line**********/
+  @keyframes polygon_22 {
+    0% {
+      left: 234px;
+      top: 60px;
+      transform: rotate(0deg);
+    }
+    2.5% {
+      left: 218px;
+      top: 35px;
+      transform: rotate(-60deg);
+    }
+    5% {
+      left: 176px;
+      top: 26px;
+      transform: rotate(-120deg);
+    }
+    7.5% {
+      left: 173px;
+      top: -6px;
+      transform: rotate(-180deg);
+    }
+    10% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    12.5% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    15% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    17.5% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    20% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    22.5% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    25% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    27.5% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    30% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    32.5% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    35% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    37.5% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    40% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+    42.5% {
+      left: 104px;
+      top: 277px;
+      transform: rotate(-1020deg);
+    }
+    45% {
+      left: 118px;
+      top: 316px;
+      transform: rotate(-1080deg);
+    }
+    47.5% {
+      left: 159px;
+      top: 323px;
+      transform: rotate(-1140deg);
+    }
+    50% {
+      left: 188px;
+      top: 292px;
+      transform: rotate(-1200deg);
+    }
+    52.5% {
+      left: 229px;
+      top: 284px;
+      transform: rotate(-1260deg);
+    }
+    100% {
+      left: 229px;
+      top: 284px;
+      transform: rotate(-1260deg);
+    }
+  }
+  @keyframes polygon_23 {
+    0% {
+      left: 234px;
+      top: 60px;
+      transform: rotate(0deg);
+    }
+    2.5% {
+      left: 218px;
+      top: 35px;
+      transform: rotate(-60deg);
+    }
+    5% {
+      left: 176px;
+      top: 26px;
+      transform: rotate(-120deg);
+    }
+    7.5% {
+      left: 173px;
+      top: -6px;
+      transform: rotate(-180deg);
+    }
+    10% {
+      left: 131px;
+      top: -14px;
+      transform: rotate(-240deg);
+    }
+    12.5% {
+      left: 104px;
+      top: 18px;
+      transform: rotate(-300deg);
+    }
+    15% {
+      left: 63px;
+      top: 25px;
+      transform: rotate(-360deg);
+    }
+    17.5% {
+      left: 49px;
+      top: 64px;
+      transform: rotate(-420deg);
+    }
+    20% {
+      left: 20px;
+      top: 65px;
+      transform: rotate(-480deg);
+    }
+    22.5% {
+      left: 6px;
+      top: 90px;
+      transform: rotate(-540deg);
+    }
+    25% {
+      left: 20px;
+      top: 115px;
+      transform: rotate(-600deg);
+    }
+    27.5% {
+      left: -6px;
+      top: 147px;
+      transform: rotate(-660deg);
+    }
+    30% {
+      left: 7px;
+      top: 187px;
+      transform: rotate(-720deg);
+    }
+    32.5% {
+      left: -6px;
+      top: 227px;
+      transform: rotate(-780deg);
+    }
+    35% {
+      left: 20px;
+      top: 259px;
+      transform: rotate(-840deg);
+    }
+    37.5% {
+      left: 61px;
+      top: 252px;
+      transform: rotate(-900deg);
+    }
+    40% {
+      left: 75px;
+      top: 277px;
+      transform: rotate(-960deg);
+    }
+    42.5% {
+      left: 104px;
+      top: 277px;
+      transform: rotate(-1020deg);
+    }
+    45% {
+      left: 118px;
+      top: 316px;
+      transform: rotate(-1080deg);
+    }
+    47.5% {
+      left: 159px;
+      top: 323px;
+      transform: rotate(-1140deg);
+    }
+    50% {
+      left: 188px;
+      top: 292px;
+      transform: rotate(-1200deg);
+    }
+    52.5% {
+      left: 229px;
+      top: 284px;
+      transform: rotate(-1260deg);
+    }
+  /*21*/
+    55% {
+      left: 244px;
+      top: 245px;
+      transform: rotate(-1320deg);
+    }
+    100% {
+      left: 244px;
+      top: 245px;
+      transform: rotate(-1320deg);
+    }
+  }
