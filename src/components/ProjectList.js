@@ -61,11 +61,11 @@ class ProjectList extends Component {
     const projectInfo = this.state.projectlist;
 
     const projectLists = projectInfo.map((info,index) => (
-      <li className='project_list' key={index} onClick={()=> {
-        this.props.stateData(index, true)
-      }} style={{ backgroundImage: `url(${info.bg})` }}>
+      <li className='project_list' key={index} style={{ backgroundImage: `url(${info.bg})` }}>
         <h3>{info.name}</h3>
-        <p>read more</p>
+        <p onClick={()=> {
+          this.props.stateData(index, true)
+        }}>read more</p>
       </li>
     ))
     return projectLists

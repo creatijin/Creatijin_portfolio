@@ -85,9 +85,8 @@ class About extends Component {
               <div className="aboutListDesc">
                 <ul>
                 <li>업무에 있어서 계획을 가지고 진행하며 예외상황을 고려하며 작업 합니다.</li>
-                <li></li>
                 <li>회사 혹은 팀의 프로세스 및 문화를 개선하거나 바꾸려는 시도를 적극적으로 합니다.</li>
-                </ul>+
+                </ul>
               </div>
             </div>
           </li>

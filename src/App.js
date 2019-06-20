@@ -25,6 +25,7 @@ class App extends Component {
       changeTo:false
     }
   }
+  
   stateCallBack = (i,v) => {
     this.setState({id:i, changeTo: v})
   }
@@ -121,7 +122,6 @@ class App extends Component {
         <div className="section section_03" id="Page6">
           <ProjectList stateData={this.stateCallBack} dataId={this.state.id} dataTo={this.state.changeTo}/>
         </div>
-        {/* 5,6 page */}
         <div className="section subSection" id="Page7">
           <h2 className="subSectiontitle">CREATIVE + SEUNGJIN = Creatijin</h2>
           <p className="subSectiontxt">
