@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 // CSS
 import './css/layout.css';
 import './css/index.css';
+import './css/resize.css';
 
 // img
 import line_03 from './img/line_03.png';

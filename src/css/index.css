@@ -394,6 +394,28 @@
 
 /*section2*/
 /* .section_03 {position: unset;} */
+.project_list_wrap {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.project_list_wrap .close {
+  position: absolute;
+  left: 50%;
+  top:10px;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255,255,255,0.8);
+  z-index: 1001;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.project_list_wrap.selected {
+  z-index: 1000;
+}
 
 .projectList_ul {
   width: 100%;
@@ -407,7 +429,7 @@
   background-size: cover;
   background-position: 50% 50%;
   box-sizing: border-box;
-  padding: 10% 0 0;
+  padding: 6% 0 0;
   text-align: center;
 }
 .project_list::after {
@@ -451,9 +473,9 @@
 .project_list p:hover::after {
   width: 100%;
 }
-
-
-.project_pop.selected {
+.project_list_wrap::after {
+  content: '';
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -461,9 +483,22 @@
   bottom: 0;
   background-color: rgba(0,0,0,0.5);
   z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.project_list_wrap.selected::after {
   opacity: 1;
   visibility: visible;
-  transition: all 0.5s;
+}
+
+.project_pop.selected {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
 }
 .pop_list {
   position: absolute;
