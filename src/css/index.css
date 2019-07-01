@@ -412,7 +412,44 @@
   z-index: 1001;
   cursor: pointer;
   border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
 }
+.project_list_wrap.selected .close {
+  opacity: 1;
+  visibility: visible;
+}
+.stick_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin: -15px 0 0 -15px;
+  transform: rotate(45deg);
+}
+.close_stick {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: 1px;
+  margin-top: 0;
+  transform: rotate(90deg);
+  transform-origin: 0;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #323232;
+  border-radius: 3px;
+}
+.close .close_stick:last-child {
+  transform: rotate(0deg);
+  left: 1px;
+  top: 50%;
+  margin-left: 0;
+  margin-top: 0px;
+}
+
 .project_list_wrap.selected {
   z-index: 1000;
 }
@@ -512,6 +549,7 @@
   overflow: hidden;
   opacity: 0;
   visibility: hidden;
+  transition: all 0.5s;
 }
 .pop_list.selected {
   opacity: 1;
@@ -520,7 +558,7 @@
 
 .pop_list .pop_img {
   width: 100%;
-  height: 35%;
+  height: 45%;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -578,14 +616,17 @@
 
 .projectTxt {
   width: 100%;
+  height: 50%;
   max-height: 290px;
   box-sizing: border-box;
-  padding-bottom: 20px;
   overflow: auto;
 }
 .projectTxt p {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #363636;
+  text-align: left;
 }
 /* 
 .film { 

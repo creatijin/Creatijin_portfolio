@@ -15,6 +15,22 @@
     .tbh { display: block !important;}
     .mb { display: none !important;}
 }
+@media ( max-width: 1024px ) {
+  /* ipad 1024 */
+  /*resize-display*/
+  .pc { display: none !important;}
+  .tbv { display: none !important;}
+  .tbh { display: block !important;}
+  .mb { display: none !important;}
+
+  .pop_list {
+    left: 10%;
+    right: 10%;
+  }
+  .projectTxt p {
+    height: 160px;
+  }
+}
 
 @media ( max-width: 768px ) {
     /*resize-display*/
@@ -87,6 +103,11 @@
   .project_list {
     width: calc( 100% / 2 );
   }
+  .pop_list {
+    left: 10%;
+    right: 10%;
+  }
+
 }
 @media ( max-width: 560px ) {
     /*resize-display*/
@@ -97,4 +118,21 @@
     .project_list {
       width: calc( 100% / 1 );
     }
+
+    .pop_list {
+      left: 5%;
+      right: 5%;
+    }
+    .pop_list .pop_img {
+      height: 35%;
+    }
+    .projectTxt {
+      height: 210px;
+    }
+
+}
+@media ( max-width: 375px ) {
+  .projectTxt {
+    height: 170px;
+  }
 }
