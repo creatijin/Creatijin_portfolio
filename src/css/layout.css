@@ -3,6 +3,7 @@
 			   layout	
 ====================================
 */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap&subset=korean');
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');*/
 /*00*/
 /*초기화*/
@@ -34,7 +35,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: 'Montserrat', 'Noto Sans KR', sans-serif !important;
+    /* font-family: 'Montserrat', 'Noto Sans KR', sans-serif !important; */
+    font-family: 'Nanum Gothic', sans-serif !important;
     font-weight: normal;
 }
 ol, ul {

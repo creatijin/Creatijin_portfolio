@@ -68,11 +68,13 @@
   font-size: 24px;
   font-weight: bold;
   display: block;
+  padding-bottom: 4rem;
 }
 .textAnimation h2 {
   text-align: center;
   font-size: 48px;
   display: block;
+  padding-bottom: 3rem;
 }
 .textAnimation p {
   text-align: center;
@@ -400,6 +402,7 @@
   bottom: 0;
   left: 0;
   right: 0;
+  visibility: hidden;
 }
 .project_list_wrap .close {
   position: absolute;
@@ -763,15 +766,19 @@
 }
 .subSectiontxt {
   font-size: 1.2rem;
-  line-height: 1.7rem;
-  width: 60%;
+  line-height: 2rem;
+  width: 80%;
   margin: 0 auto 1.25rem;
 }
 .subSectionttalk {
   font-size: 1.875rem;
   line-height: 2.2rem;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+}
+.subSectionttalk span {
+  font-size: 0.8rem;
+  color:#333;
 }
 .color_pink { color: #c40544;}
 /*subSection1*/
@@ -817,7 +824,7 @@
 }
 .work_contant p {
   font-size: 1.2rem;
-  line-height: 1.4rem;
+  line-height: 1.8rem;
 }
 
 .work_contents {

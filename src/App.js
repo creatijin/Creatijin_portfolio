@@ -11,6 +11,7 @@ import './css/index.css';
 import './css/resize.css';
 
 // img
+import line_01 from './img/line_01.png';
 import line_03 from './img/line_03.png';
 import spaaaade from './img/spaaaadelogo.png';
 import slide_img_01 from './img/pc_slider_01.png';
@@ -52,7 +53,7 @@ class App extends Component {
     const mainContent = {
       title: 'Creatijin',
       subtitle: 'Creative it is nature',
-      subtxt: '포트폴리오'
+      subtxt: 'PORTFOLIO'
     }
     const contactInfo = [
       {
@@ -71,9 +72,14 @@ class App extends Component {
         href: 'https://github.com/creatijin'
       },
       {
-        infoName: '블로그',
+        infoName: '티스토리 블로그',
         info: 'creatijin.tistory.com',
         href: 'https://creatijin.tistory.com'
+      },
+      {
+        infoName: '개츠비 블로그',
+        info: 'creatijin.netlify.com/',
+        href: 'https://creatijin.netlify.com'
       },
       {
         infoName: '인스타그램',
@@ -87,10 +93,10 @@ class App extends Component {
           <MainAnimation main={mainContent}/>
         </div>
         <div className="section subSection" id="Page2">
-          <h2 className="subSectiontitle">우리가하는 일</h2>
-          <p className="subSectiontxt">반응적인 디자인은 Full Bundle의 핵심입니다. 우리는 보는 즐거움뿐 아니라 사용의 즐거움도 창조해내는 것에 자부심을 가지고 있습니다. 번개가 빠른 웹 사이트에서부터 독특한 브랜딩에 이르기까지 모든 제작물은 고객의 경험에 강력하고 지속적인 영향을 미칩니다.</p>
+          <h2 className="subSectiontitle">웹의 매력에 빠진 개발자</h2>
+          <p className="subSectiontxt">웹 에이전시에서 웹 퍼블리셔와 스크립트쪽을 담당했고 지금은 현재 Fron-end쪽에 관심을 가지고 공부중에 있습니다.<br />새로운것에 대한 도전을 두려워하지 않으며 배움에 있어 높고 낮음이 없다는 생각을 가지고 있습니다.</p>
           <div className="line"><img src={line_03} alt="line_03" /></div>
-          <p className="subSectiontxt">프로젝트는 전적으로 고유합니다. 아무리 다른 여행이라도 목적지는 항상 변함이 없습니다. 정말 놀라운 일입니다. 최종 제품이 눈에 띄는 것은 아닙니다. 그것은 시간의 시험입니다.</p>
+          <p className="subSectiontxt">빠르게 변화하는 웹 시장을 무작정 따라가기 보다는 적절한 상황에 필요한 기술을 사용하고,<br/>동료들과 원활한 커뮤니케이션으로 업무효율을 높이고자 합니다.</p>
         </div>
         <div className="section section_01" id="Page3">
           <div className="section_inner inner_mh">
@@ -106,9 +112,9 @@ class App extends Component {
               <p>웹 에이전시</p>
             </div>
             <div className="work_contant work_lists">
-              <h4>Description</h4>
+              <h4>Work</h4>
               <p>
-                회사에서 관리하고 있는 유지보수 홈페이지 보수와 클라이언트가 원하는 디자인
+                웹 에이전시에서 퍼블리셔로써 전반적인 웹 사이트 제작 업무를 맡아서 진행 했습니다 기획자,디자이너와 함께 커뮤니케이션을 통하여 원활한 업무환경을 만들었습니다 그 외에도 사내 쇼핑몰 유지보수 및 사내 사업도 참여 했습니다. 
               </p>
               <h4>Tech Stack</h4>
               <p>
@@ -124,15 +130,15 @@ class App extends Component {
           <ProjectList stateData={this.stateCallBack} dataId={this.state.id} dataTo={this.state.changeTo}/>
         </div>
         <div className="section subSection" id="Page7">
-          <h2 className="subSectiontitle">CREATIVE + SEUNGJIN = Creatijin</h2>
-          <p className="subSectiontxt">
-            
+          <h2 className="subSectiontitle">CREATIVITY + SEUNGJIN = Creatijin</h2>
+          <p className="subSectionttalk color_pink">
+            "Creativity is contagious, pass it on"<br/><span>"창의력은 감염되는 것이다 전달하되도록 하자 창작은 새로운것을 낳는 것"</span><br/>- Albert Einstein -
           </p>
           <div className="line line_s_01">
-            <img src="/contents/images/line_s_01.png" alt="line_s_01" />
+            <img src={line_01} alt="line_01" />
           </div>
-          <p className="subSectionttalk color_pink">
-            "독창성에 힘 입어 비 전통적인 방식에서 영감을 얻어,<br/> 우리는 당신에게 맞는 솔루션을 만들 것입니다."
+          <p className="subSectiontxt">
+            아인슈타인의 말 처럼 창의력은 전달된다고 믿습니다.<br/>업무에도 창의력이 필요하다고 생각합니다. 창의력의 뜻을 담은 단어와 이름을 합쳐<br/>언제나 창의력을 전달 할 수 있는 사람이 되고자 합니다.
           </p>
         </div>
         <div className="section" id="Page9">

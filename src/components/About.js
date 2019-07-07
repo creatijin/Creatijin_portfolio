@@ -44,7 +44,9 @@ class About extends Component {
               <div className="aboutListDesc">
                   <ul>
                     <li>React를 사용하여 다양한 제작이 가능합니다.</li>
-                    <li>View 사용하여 다양한 제작이 가능합니다.</li>
+                    <li>React Native를 사용하여 모바일 웹 제작이 가능합니다.</li>
+                    <li>React의 Class문법과 Hook문법 사용이 가능합니다.</li>
+                    <li>React 개발환경 구축에 </li>
                   </ul>
               </div>
             </div>
