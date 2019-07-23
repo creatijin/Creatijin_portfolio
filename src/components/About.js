@@ -39,14 +39,14 @@ class About extends Component {
           <li className="about_list_li">
             <div className="aboutList_box">
               <h4 className="aboutjListName">
-                React + View
+                React
               </h4>
               <div className="aboutListDesc">
                   <ul>
                     <li>React를 사용하여 다양한 제작이 가능합니다.</li>
                     <li>React Native를 사용하여 모바일 웹 제작이 가능합니다.</li>
                     <li>React의 Class문법과 Hook문법 사용이 가능합니다.</li>
-                    <li>React 개발환경 구축에 </li>
+                    <li>React 개발환경 구축에 관심을 가지고 학습중입니다.</li>
                   </ul>
               </div>
             </div>
@@ -60,6 +60,7 @@ class About extends Component {
                   <ul>
                     <li>아름다운 유저 인터페이스 및 애니메이션 구현을 즐깁니다.</li>
                     <li>다양한 플랫폼 및 브라우저를 지원할 수 있습니다.</li>
+                    <li>GTQ 1급과 포토샵,일러스트 작업이 가능합니다.</li>
                   </ul>
               </div>
             </div>
@@ -82,7 +83,7 @@ class About extends Component {
           <li className="about_list_li">
             <div className="aboutList_box">
               <h4 className="aboutjListName">
-                Creatijin
+                Blog
               </h4>
               <div className="aboutListDesc">
                 <ul>

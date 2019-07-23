@@ -14,9 +14,9 @@ import './css/resize.css';
 import line_01 from './img/line_01.png';
 import line_03 from './img/line_03.png';
 import spaaaade from './img/spaaaadelogo.png';
-import slide_img_01 from './img/pc_slider_01.png';
-import slide_img_02 from './img/pc_slider_02.png';
-import slide_img_03 from './img/pc_slider_03.png';
+import slide_img_01 from './img/pl_01.png';
+import slide_img_02 from './img/pl_02.png';
+import slide_img_03 from './img/pl_03.png';
 
 
 class App extends Component {
@@ -78,7 +78,7 @@ class App extends Component {
       },
       {
         infoName: '개츠비 블로그',
-        info: 'creatijin.netlify.com/',
+        info: 'creatijin.netlify.com',
         href: 'https://creatijin.netlify.com'
       },
       {
@@ -94,7 +94,7 @@ class App extends Component {
         </div>
         <div className="section subSection" id="Page2">
           <h2 className="subSectiontitle">웹의 매력에 빠진 개발자</h2>
-          <p className="subSectiontxt">웹 에이전시에서 웹 퍼블리셔와 스크립트쪽을 담당했고 지금은 현재 Fron-end쪽에 관심을 가지고 공부중에 있습니다.<br />새로운것에 대한 도전을 두려워하지 않으며 배움에 있어 높고 낮음이 없다는 생각을 가지고 있습니다.</p>
+          <p className="subSectiontxt">웹 에이전시에서 웹 퍼블리셔와 스크립트쪽을 담당했고 지금은 현재 Front-end쪽에 관심을 가지고 공부중에 있습니다.<br />새로운것에 대한 도전을 두려워하지 않으며 배움에 있어 높고 낮음이 없다는 생각을 가지고 있습니다.</p>
           <div className="line"><img src={line_03} alt="line_03" /></div>
           <p className="subSectiontxt">빠르게 변화하는 웹 시장을 무작정 따라가기 보다는 적절한 상황에 필요한 기술을 사용하고,<br/>동료들과 원활한 커뮤니케이션으로 업무효율을 높이고자 합니다.</p>
         </div>

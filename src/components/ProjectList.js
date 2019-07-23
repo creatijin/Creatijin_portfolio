@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
-import pl_01 from '../img/pc_slider_01.png';
-import pl_02 from '../img/pc_slider_02.png';
-import pl_03 from '../img/pc_slider_03.png';
-import pl_04 from '../img/project_01.png';
-import pl_05 from '../img/project_02.png';
-import pl_06 from '../img/project_03.png';
-import pl_07 from '../img/project_04.png';
-import pl_08 from '../img/project_05.png';
-import pl_09 from '../img/project_06.png';
-import pl_10 from '../img/project_07.png';
-import pl_11 from '../img/project_08.png';
-import pl_12 from '../img/project_09.png';
-import pl_13 from '../img/project_10.png';
-import pl_15 from '../img/project_12.png';
-import pl_16 from '../img/project_13.png';
-import pl_17 from '../img/project_14.png';
-import pl_18 from '../img/project_15.png';
+import pl_01 from '../img/pl_01.png';
+import pl_02 from '../img/pl_02.png';
+import pl_03 from '../img/pl_03.png';
+import pl_04 from '../img/pl_04.png';
+import pl_05 from '../img/pl_05.png';
+import pl_06 from '../img/pl_06.jpg';
+import pl_07 from '../img/pl_07.png';
+import pl_08 from '../img/pl_08.png';
+import pl_09 from '../img/pl_09.png';
+import pl_10 from '../img/pl_10.png';
+import pl_11 from '../img/pl_11.png';
+import pl_12 from '../img/pl_12.png';
+import pl_13 from '../img/pl_13.png';
+import pl_14 from '../img/pl_14.png';
+import pl_15 from '../img/pl_15.png';
+import pl_16 from '../img/pl_16.jpg';
+import pl_17 from '../img/pl_17.jpg';
+import pl_18 from '../img/pl_18.jpg';
 import icon_js from '../img/icon_js.png';
 import icon_html from '../img/icon_html.png';
 import icon_css from '../img/icon_css.png';
@@ -132,7 +133,7 @@ class ProjectList extends Component {
         },
         {
           company: 'SPAAAADE',
-          name: 'KB손해보험',
+          name: '풀만',
           technology: [
               icon_html,
               icon_css,
@@ -145,7 +146,7 @@ class ProjectList extends Component {
         },
         {
           company: 'SPAAAADE',
-          name: '더마틱스 울트라',
+          name: 'SIC',
           technology: [
               icon_html,
               icon_css,
@@ -153,12 +154,12 @@ class ProjectList extends Component {
               icon_jquery,
               icon_react
           ],
-          bg: pl_10 ,
+          bg: pl_10,
           txt: ''
         },
         {
           company: 'SPAAAADE',
-          name: '풀만',
+          name: '강원컨벤션뷰로',
           technology: [
               icon_html,
               icon_css,
@@ -171,7 +172,7 @@ class ProjectList extends Component {
         },
         {
           company: 'SPAAAADE',
-          name: 'SIC',
+          name: 'KB손해보험 컨설팅 App',
           technology: [
               icon_html,
               icon_css,
@@ -184,7 +185,7 @@ class ProjectList extends Component {
         },
         {
           company: 'SPAAAADE',
-          name: '강원컨벤션뷰로',
+          name: '효성어묵',
           technology: [
               icon_html,
               icon_css,
@@ -197,45 +198,6 @@ class ProjectList extends Component {
         },
         {
           company: 'SPAAAADE',
-          name: '바텍 코리아',
-          technology: [
-              icon_html,
-              icon_css,
-              icon_js,
-              icon_jquery,
-              icon_react
-          ],
-          bg: pl_15 ,
-          txt: '바텍 그룹은 자사 계열사 사이트 6개를 동시에 작업하여 레이아웃 부분은 동일하지만 내용이 다르기 때문에 작업시간도 가장 오래 걸리고 서브 페이지의 구조도 조금씩 다른 부분이 있어서 신경을 많이 썼습니다. 대량의 사이트를 동시 작업하기 때문에 실수 할 수 있는 부분이 많았지만 최대한 세심하게 작업했고 주의해야하는 부분을 생각 할 수 있어서 좋았습니다.'
-        },
-        {
-          company: 'SPAAAADE',
-          name: '효성어묵',
-          technology: [
-              icon_html,
-              icon_css,
-              icon_js,
-              icon_jquery,
-              icon_react
-          ],
-          bg: pl_16 ,
-          txt: ''
-        },
-        {
-          company: 'SPAAAADE',
-          name: '대한건선학회',
-          technology: [
-              icon_html,
-              icon_css,
-              icon_js,
-              icon_jquery,
-              icon_react
-          ],
-          bg: pl_17 ,
-          txt: '신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는'
-        },
-        {
-          company: 'SPAAAADE',
           name: 'Dr.bom',
           technology: [
               icon_html,
@@ -244,7 +206,46 @@ class ProjectList extends Component {
               icon_jquery,
               icon_react
           ],
-          bg: pl_18 ,
+          bg: pl_14,
+          txt: '바텍 그룹은 자사 계열사 사이트 6개를 동시에 작업하여 레이아웃 부분은 동일하지만 내용이 다르기 때문에 작업시간도 가장 오래 걸리고 서브 페이지의 구조도 조금씩 다른 부분이 있어서 신경을 많이 썼습니다. 대량의 사이트를 동시 작업하기 때문에 실수 할 수 있는 부분이 많았지만 최대한 세심하게 작업했고 주의해야하는 부분을 생각 할 수 있어서 좋았습니다.'
+        },
+        {
+          company: 'SPAAAADE',
+          name: '리봄한의원',
+          technology: [
+              icon_html,
+              icon_css,
+              icon_js,
+              icon_jquery,
+              icon_react
+          ],
+          bg: pl_15 ,
+          txt: ''
+        },
+        {
+          company: 'SPAAAADE',
+          name: 'Dr.bom X GONGJIN',
+          technology: [
+              icon_html,
+              icon_css,
+              icon_js,
+              icon_jquery,
+              icon_react
+          ],
+          bg: pl_16 ,
+          txt: '신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는신세계 인터코스는'
+        },
+        {
+          company: 'SPAAAADE',
+          name: '(주)바텍',
+          technology: [
+              icon_html,
+              icon_css,
+              icon_js,
+              icon_jquery,
+              icon_react
+          ],
+          bg: pl_17 ,
           txt: '리봄 한의원의 미용 제품 홍보 웹사이트로 제품을 효과적으로 보여줘야해서 제품 라인별로 소개 페이지를 제작해야 했고 다 다른 레이아웃으로 작업을 했습니다. 그리고 한국어 뿐만 아니라 중국어, 영어까지 총 3개국어 사이트를 제작해야하는 과정에서 중국어로 사이트 제작에 주의 해야하는 부분을 경험으로 체험 할 수 있었습니다.'
         },
         {
