@@ -93,8 +93,8 @@ class App extends Component {
           <MainAnimation main={mainContent}/>
         </div>
         <div className="section subSection" id="Page2">
-          <h2 className="subSectiontitle">웹의 매력에 빠진 개발자</h2>
-          <p className="subSectiontxt">웹 에이전시에서 웹 퍼블리셔와 스크립트쪽을 담당했고 지금은 현재 Front-end쪽에 관심을 가지고 공부중에 있습니다.<br />새로운것에 대한 도전을 두려워하지 않으며 배움에 있어 높고 낮음이 없다는 생각을 가지고 있습니다.</p>
+          <h2 className="subSectiontitle">웹의 매력에 빠진 <br className='mb'/>개발자</h2>
+          <p className="subSectiontxt">웹 에이전시에서 웹 퍼블리셔와 스크립트쪽을 담당했고 지금은 현재 Front-end쪽에 관심을 가지고 <br className='mb'/>공부중에 있습니다.<br />새로운것에 대한 도전을 두려워하지 않으며 '배움에 있어 높고 낮음이 없다'는 생각을 가지고 있습니다.</p>
           <div className="line"><img src={line_03} alt="line_03" /></div>
           <p className="subSectiontxt">빠르게 변화하는 웹 시장을 무작정 따라가기 보다는 적절한 상황에 필요한 기술을 사용하고,<br/>동료들과 원활한 커뮤니케이션으로 업무효율을 높이고자 합니다.</p>
         </div>
@@ -130,7 +130,7 @@ class App extends Component {
           <ProjectList stateData={this.stateCallBack} dataId={this.state.id} dataTo={this.state.changeTo}/>
         </div>
         <div className="section subSection" id="Page7">
-          <h2 className="subSectiontitle">CREATIVITY + SEUNGJIN = Creatijin</h2>
+          <h2 className="subSectiontitle">CREATIVITY <br className='mb'/>+<br className='mb'/> SEUNGJIN <br className='mb'/>=<br className='mb'/> Creatijin</h2>
           <p className="subSectionttalk color_pink">
             "Creativity is contagious, pass it on"<br/><span>"창의력은 감염되는 것이다 전달하되도록 하자 창작은 새로운것을 낳는 것"</span><br/>- Albert Einstein -
           </p>

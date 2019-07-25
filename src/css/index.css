@@ -383,11 +383,15 @@
 .aboutListDesc ul li {
   padding-bottom: 5px;
   font-size: 16px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  position: relative;
 }
 .aboutListDesc ul li:before {
+  position: absolute;
+  left:0;
   content: "•";
   display: inline-block;
-  margin-right: 10px;
 }
 
 

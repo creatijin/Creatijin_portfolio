@@ -52,6 +52,11 @@
   }
   .textAnimation h1 {
     font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .textAnimation h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
   }
   .subSectiontitle {
     font-size: 2.4rem;
@@ -131,8 +136,57 @@
     }
 
 }
-@media ( max-width: 375px ) {
+@media ( max-width: 376px ) {
+    /*resize-display*/
+    .pc { display: none !important;}
+    .tbv { display: none !important;}
+    .tbh { display: none !important;}
+    .mb { display: block !important;}
+
+
+  .logo_box {
+    margin: 3em auto;
+    margin-left: 95px;
+    margin-bottom: 4rem;
+    zoom: 0.8;
+  }
+  .textAnimation h1 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  .textAnimation h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .subSectiontitle {
+    line-height: 3rem;
+  }
   .projectTxt {
     height: 170px;
+  }
+  .project_list {
+    padding-top: 60px;
+  }
+  .projectTxt p {
+    font-size: 16px;
+    line-height:24px;
+  }
+
+  .subSectionttalk {
+    font-size: 1.675rem;
+  }
+  .subSectionttalk span {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .line {
+    width: 80%;
+  }
+  .contact_wrap {
+    margin: 0 30px;
+    padding: 80px 0 40px;
+  }
+  .contact_ul .contact_list a {
+    font-size: 1.2rem;
   }
 }
