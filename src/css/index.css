@@ -464,6 +464,7 @@
 .projectList_ul {
   width: 100%;
 }
+
 .project_list {
   position: relative;
   display: inline-block;
@@ -476,6 +477,7 @@
   padding: 6% 0 0;
   text-align: center;
 }
+
 .project_list::after {
   content: '';
   display: block;
@@ -487,6 +489,7 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 80;
 }
+
 .project_list h3 {
   position: relative;
   z-index: 99;
@@ -494,6 +497,7 @@
   font-size: 34px;
   margin-bottom: 15px;
 }
+
 .project_list p {
   position: relative;
   display: inline-block;
@@ -504,6 +508,7 @@
   cursor: pointer;
   padding:2px;
 }
+
 .project_list p::after {
   content: '';
   position: absolute;
@@ -514,9 +519,11 @@
   height: 100%;
   transition: all 0.3s;
 }
+
 .project_list p:hover::after {
   width: 100%;
 }
+
 .project_list_wrap::after {
   content: '';
   display: block;
@@ -531,6 +538,7 @@
   visibility: hidden;
   transition: all 0.5s;
 }
+
 .project_list_wrap.selected::after {
   opacity: 1;
   visibility: visible;
@@ -544,6 +552,7 @@
   bottom: 0;
   z-index: 1001;
 }
+
 .pop_list {
   position: absolute;
   top: 10%;
@@ -558,6 +567,7 @@
   visibility: hidden;
   transition: all 0.5s;
 }
+
 .pop_list.selected {
   opacity: 1;
   visibility: visible;
@@ -635,6 +645,7 @@
   color: #363636;
   text-align: left;
 }
+
 /* 
 .film { 
   position: absolute;
@@ -891,12 +902,13 @@
 }
 
 /*images*/
+/*
 .cratijin_bg {}
 .cratijin_icon {}
 .cratijin_poly {}
 .cratijin_poly_01 {}
 .cratijin_poly_02 {}
-
+*/
 
 .line {
   width: 30%;
@@ -905,6 +917,8 @@
   margin: 2rem auto;
   animation: baunce_line 1s infinite;
 }
+
+/*
 .line_01 {}
 .line_s_01 {}
 .line_02 {}
@@ -913,8 +927,7 @@
 .line_s_03 {}
 .line_04 {}
 .line_s_04 {}
-
-
+*/
 
 /*animetion - ketfremes*/
 @keyframes baunce_line {

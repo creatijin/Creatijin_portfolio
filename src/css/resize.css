@@ -30,6 +30,9 @@
   .projectTxt p {
     height: 160px;
   }
+  .project_list h3 {
+    font-size: 26px;
+  }
 }
 
 @media ( max-width: 768px ) {
@@ -134,7 +137,17 @@
     .projectTxt {
       height: 210px;
     }
-
+      /* slider */
+  .slider__control {
+    left: 20px;
+  }
+  .slider__control--right {
+    right: 20px;
+    left: auto;
+  }
+  .slider__slide-heading {
+    font-size: 40px;
+  }
 }
 @media ( max-width: 376px ) {
     /*resize-display*/
@@ -168,8 +181,12 @@
     padding-top: 60px;
   }
   .projectTxt p {
-    font-size: 16px;
+    font-size: 14px;
     line-height:24px;
+  }
+
+  .about_list_ul {
+    width: 90%;
   }
 
   .subSectionttalk {
@@ -189,4 +206,18 @@
   .contact_ul .contact_list a {
     font-size: 1.2rem;
   }
+
+
+  /* slider */
+  .slider__control {
+    left: 20px;
+  }
+  .slider__control--right {
+    right: 20px;
+    left: auto;
+  }
+  .slider__slide-heading {
+    font-size: 40px;
+  }
+
 }
