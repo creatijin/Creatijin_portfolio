@@ -92,7 +92,7 @@ class ProjectList extends Component {
         },
         {
           company: 'SPAAAADE',
-          name: '아미 에우제니',
+          name: '아미에우제니',
           technology: [
               icon_html,
               icon_css,
