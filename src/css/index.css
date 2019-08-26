@@ -579,7 +579,11 @@
   background-size: cover;
   background-position: 50% 50%;
 }
-
+.link_icon {
+  width: 24px;
+  display: inline-block;
+  margin: 0px 10px 10px 10px;
+  }
 .pop_txt_wrap {
   text-align: center;
   padding: 0 5%;
