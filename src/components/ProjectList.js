@@ -292,7 +292,7 @@ class ProjectList extends Component {
         </div>
         <div className="pop_txt_wrap">
           <h3>{info.company}</h3>
-          <h2><a href={info.url} target="_blank">{info.name}<img className="link_icon" src={icon_link} alt="link_icon" /></a></h2>
+          <h2><a target="_blank" href={info.url} rel = "noopener noreferrer">{info.name}<img className="link_icon" src={icon_link} alt="link_icon" /></a></h2>
           <div className="skill_list">
             <p>Skill</p>
             <ul>

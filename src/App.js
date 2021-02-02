@@ -106,23 +106,13 @@ class App extends Component {
         </div>
         <div className="section subSection" id="Page4">
           <h2 className="subSectiontitle">Work Experience</h2>
-          <div className="workListwrap">
-            <div className="work_title work_lists">
-              <div className="work_logo"><img src={spaaaade} alt="spaaaadelogo" /></div>
-              <h4>스페이드컴퍼니</h4>
-              <p>웹 에이전시</p>
-            </div>
-            <div className="work_contant work_lists">
-              <h4>Work</h4>
-              <p>
-                웹 에이전시에서 퍼블리셔로써 전반적인 웹 사이트 제작 업무를 맡아서 진행 했습니다. 기획자,디자이너와 함께 커뮤니케이션을 통하여 원활한 업무환경을 만들었습니다. 그 외에도 사내 쇼핑몰 유지보수 및 사내 사업도 참여 했습니다. 
-              </p>
-              <h4>Tech Stack</h4>
-              <p>
-                Html, CSS, SCSS, JavaScript, jQuery, cafe24, 고도몰, WordPress, XE, 그누보드
-              </p>
-            </div>
-          </div>
+          <WorkList
+            img={spaaaade}
+            worktitle={'스페이드컴퍼니'}
+            worktxt={'웹 에이전시'}
+            workcontant={'웹 에이전시에서 퍼블리셔로써 전반적인 웹 사이트 제작 업무를 맡아서 진행 했습니다. 기획자,디자이너와 함께 커뮤니케이션을 통하여 원활한 업무환경을 만들었습니다. 그 외에도 사내 쇼핑몰 유지보수 및 사내 사업도 참여 했습니다. '}
+            stack={'Html, CSS, SCSS, JavaScript, jQuery, cafe24, 고도몰, WordPress, XE, 그누보드'}
+          />
           <WorkList
             img={cangyun}
             worktitle={'(주)창운코리아'}
@@ -130,24 +120,6 @@ class App extends Component {
             workcontant={'데이터 사업부에 Front-end를 담당했으며, 기존에 있던 서비스를 유지보수하는 일이 아니라 처음부터 기획,제작에 참여했습니다. 창운코리아 자사 홈페이지 제작, DRX팀 홈페이지 제작, 내부 프로젝트 Loga, Log를 진행했습니다.'}
             stack={'Html, CSS, SCSS, JavaScript, React, Redux, TypeScript'}
           />
-          {/* <div className="workListwrap">
-            <div className="work_title work_lists">
-              <div className="work_logo"><img src={cangyun} alt="cangyunlogo" /></div>
-              <h4>(주)창운코리아</h4>
-              <p></p>
-            </div>
-            <div className="work_contant work_lists">
-              <h4>Work</h4>
-              <p>
-                데이터 사업부에 Front-end를 담당했으며, 기존에 있던 서비스를 유지보수하는 일이 아니라 처음부터 기획,제작에 참여했습니다.
-                창운코리아 자사 홈페이지 제작, DRX팀 홈페이지 제작, 내부 프로젝트 Loga, Log를 진행했습니다.
-              </p>
-              <h4>Tech Stack</h4>
-              <p>
-                Html, CSS, SCSS, JavaScript, React, Redux, TypeScript
-              </p>
-            </div>
-          </div> */}
         </div>
         <div className="section section_02" id="Page5">
           <CitiesSlider slides={slides} stateData={this.stateCallBack}/>
