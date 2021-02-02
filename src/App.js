@@ -4,7 +4,7 @@ import About from './components/About';
 import CitiesSlider from './components/Slider';
 import ProjectList from './components/ProjectList';
 import Contact from './components/Contact';
-
+import WorkList from './components/WorkListwrap';
 // CSS
 import './css/layout.css';
 import './css/index.css';
@@ -14,9 +14,10 @@ import './css/resize.css';
 import line_01 from './img/line_01.png';
 import line_03 from './img/line_03.png';
 import spaaaade from './img/spaaaadelogo.png';
-import slide_img_01 from './img/pl_01.png';
-import slide_img_02 from './img/pl_02.png';
-import slide_img_03 from './img/pl_03.png';
+import cangyun from './img/cangyunlogo.png';
+import slide_img_01 from './img/pl_19.png';
+import slide_img_02 from './img/pl_20.png';
+import slide_img_03 from './img/pl_21.png';
 
 
 class App extends Component {
@@ -35,18 +36,18 @@ class App extends Component {
   render() {
     const slides = [
       {
-        site: '신세계 인터코스',
-        company: 'SPAAAADE',
+        site: 'Log',
+        company: '(주)창운코리아',
         img: slide_img_01
       },
       {
-        site: '휠리펀트',
-        company: 'SPAAAADE',
+        site: 'Loga',
+        company: '창운코리아',
         img: slide_img_02,
       },
       {
-        site: '바비리스',
-        company: 'SPAAAADE',
+        site: '창운코리아',
+        company: '창운코리아',
         img: slide_img_03,
       }
     ];
@@ -78,13 +79,13 @@ class App extends Component {
       },
       {
         infoName: '개츠비 블로그',
-        info: 'creatijin.netlify.com',
-        href: 'https://creatijin.netlify.com'
+        info: 'creatijin0124.netlify.com',
+        href: 'https://creatijin0124.netlify.com'
       },
       {
         infoName: '인스타그램',
-        info: 'www.instagram.com/koguma0124',
-        href: 'https://www.instagram.com/koguma0124'
+        info: 'www.instagram.com/koguma01_24',
+        href: 'https://www.instagram.com/koguma01_24'
       }
     ];
     return(
@@ -114,7 +115,7 @@ class App extends Component {
             <div className="work_contant work_lists">
               <h4>Work</h4>
               <p>
-                웹 에이전시에서 퍼블리셔로써 전반적인 웹 사이트 제작 업무를 맡아서 진행 했습니다 기획자,디자이너와 함께 커뮤니케이션을 통하여 원활한 업무환경을 만들었습니다 그 외에도 사내 쇼핑몰 유지보수 및 사내 사업도 참여 했습니다. 
+                웹 에이전시에서 퍼블리셔로써 전반적인 웹 사이트 제작 업무를 맡아서 진행 했습니다. 기획자,디자이너와 함께 커뮤니케이션을 통하여 원활한 업무환경을 만들었습니다. 그 외에도 사내 쇼핑몰 유지보수 및 사내 사업도 참여 했습니다. 
               </p>
               <h4>Tech Stack</h4>
               <p>
@@ -122,6 +123,31 @@ class App extends Component {
               </p>
             </div>
           </div>
+          <WorkList
+            img={cangyun}
+            worktitle={'(주)창운코리아'}
+            worktxt={'스포츠 서비스/소프트웨어 개발'}
+            workcontant={'데이터 사업부에 Front-end를 담당했으며, 기존에 있던 서비스를 유지보수하는 일이 아니라 처음부터 기획,제작에 참여했습니다. 창운코리아 자사 홈페이지 제작, DRX팀 홈페이지 제작, 내부 프로젝트 Loga, Log를 진행했습니다.'}
+            stack={'Html, CSS, SCSS, JavaScript, React, Redux, TypeScript'}
+          />
+          {/* <div className="workListwrap">
+            <div className="work_title work_lists">
+              <div className="work_logo"><img src={cangyun} alt="cangyunlogo" /></div>
+              <h4>(주)창운코리아</h4>
+              <p></p>
+            </div>
+            <div className="work_contant work_lists">
+              <h4>Work</h4>
+              <p>
+                데이터 사업부에 Front-end를 담당했으며, 기존에 있던 서비스를 유지보수하는 일이 아니라 처음부터 기획,제작에 참여했습니다.
+                창운코리아 자사 홈페이지 제작, DRX팀 홈페이지 제작, 내부 프로젝트 Loga, Log를 진행했습니다.
+              </p>
+              <h4>Tech Stack</h4>
+              <p>
+                Html, CSS, SCSS, JavaScript, React, Redux, TypeScript
+              </p>
+            </div>
+          </div> */}
         </div>
         <div className="section section_02" id="Page5">
           <CitiesSlider slides={slides} stateData={this.stateCallBack}/>
