@@ -55,7 +55,7 @@ class CitiesSlider extends Component {
     return (
       <>
         <div className={classNames('slider', { 's--ready': sliderReady })}>
-          <p className="slider__top-heading">웹에이전시</p>
+          <p className="slider__top-heading">스포츠 서비스/소프트웨어 개발</p>
           <ul className="slider__slides">
             {this.props.slides.map((slide, index) => (
               <li

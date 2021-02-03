@@ -39,6 +39,18 @@ class About extends Component {
           <li className="about_list_li">
             <div className="aboutList_box">
               <h4 className="aboutjListName">
+                TypeScript
+              </h4>
+              <div className="aboutListDesc">
+                  <ul>
+                    <li>내용채울것</li>
+                  </ul>
+                </div>
+              </div>
+          </li>
+          <li className="about_list_li">
+            <div className="aboutList_box">
+              <h4 className="aboutjListName">
                 React
               </h4>
               <div className="aboutListDesc">
@@ -47,6 +59,20 @@ class About extends Component {
                     <li>React Native를 사용하여 모바일 웹 제작이 가능합니다.</li>
                     <li>React의 Class문법과 Hook문법 사용이 가능합니다.</li>
                     <li>React 개발환경 구축에 관심을 가지고 학습중입니다.</li>
+                  </ul>
+              </div>
+            </div>
+          </li>
+          <li className="about_list_li">
+            <div className="aboutList_box">
+              <h4 className="aboutjListName">
+                Redux
+              </h4>
+              <div className="aboutListDesc">
+                  <ul>
+                    <li>MVC패턴의 구조와 단점을 이해하고 있습니다.</li>
+                    <li>Flux의 Action, Dispatcher, Store, View 구성과 흐름을 이해하고 있습니다.</li>
+                    <li>내용 채울것</li>
                   </ul>
               </div>
             </div>

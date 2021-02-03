@@ -17,10 +17,18 @@ import pl_15 from '../img/pl_15.png';
 import pl_16 from '../img/pl_16.jpg';
 import pl_17 from '../img/pl_17.jpg';
 import pl_18 from '../img/pl_18.jpg';
+
+import pl_19 from '../img/pl_19.png';
+import pl_20 from '../img/pl_20.png';
+import pl_21 from '../img/pl_21.png';
+
 import icon_js from '../img/icon_js.png';
 import icon_html from '../img/icon_html.png';
 import icon_css from '../img/icon_css.png';
 import icon_jquery from '../img/icon_jquery.png';
+import icon_react from '../img/icon_react.png';
+import icon_redux from '../img/icon_redux.png';
+import icon_typescript from '../img/icon_typescript.png';
 import icon_link from '../img/broken-link.png';
 
 var classNames = require('classnames');
@@ -30,6 +38,45 @@ class ProjectList extends Component {
     super(props);
     this.state = {
       projectlist: [
+        {
+          company: '(주)창운코리아',
+          name: 'Log',
+          technology: [
+              icon_html,
+              icon_css,
+              icon_js,
+              icon_react,
+              icon_redux,
+              icon_typescript
+          ],
+          url:'https://test.log.gg/',
+          bg: pl_19 ,
+          txt: '리그 오브 레전드의 게임 데이터를 기반으로 만들어진 서비스이며, React로 제작했습니다. 아이디어, 기획, 제작에 참여 했습니다. 특이한 점은 양방향 검색 기능으로 기존 제작했던 구조와는 다른 제작으로 새로운 경험을 할 수 있었습니다. Loga는 현재 런칭 준비중에 있으며 추가적인 개발 및 수정을 진행하고 있습니다.'
+        },
+        {
+          company: '(주)창운코리아',
+          name: 'Loga',
+          technology: [
+              icon_html,
+              icon_css,
+              icon_js,
+          ],
+          url:undefined,
+          bg: pl_20 ,
+          txt: 'Loga는 게이머들의 게임을 함께할 파티를 찾을 수 있는 페이지로 기획 되었으며 일반 기업 페이지가 아닌 서비스를 만들면서 구조에 대한 중요성을 배웠습니다.'
+        },
+        {
+          company: '(주)창운코리아',
+          name: '창운코리아',
+          technology: [
+              icon_html,
+              icon_css,
+              icon_js,
+          ],
+          url:'https://www.cangyunkr.com/',
+          bg: pl_21 ,
+          txt: '자사 홈페이지 제작으로 PC, Mobile, Tablet 모두 사용 가능한 페이지이며, 원페이지 구성으로 제작했습니다.'
+        },
         {
           company: 'SPAAAADE',
           name: '신세계 인터코스',
