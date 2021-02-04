@@ -94,8 +94,8 @@ class App extends Component {
           <MainAnimation main={mainContent}/>
         </div>
         <div className="section subSection" id="Page2">
-          <h2 className="subSectiontitle">웹의 매력에 빠진 <br className='mb'/>개발자</h2>
-          <p className="subSectiontxt">웹 에이전시에서 웹 퍼블리셔와 스크립트쪽을 담당했고 지금은 현재 Front-end쪽에 관심을 가지고 <br className='mb'/>공부중에 있습니다.<br />새로운것에 대한 도전을 두려워하지 않으며 '배움에 있어 높고 낮음이 없다'는 생각을 가지고 있습니다.</p>
+          <h2 className="subSectiontitle">삽질하며 성장하는<br className='mb'/>개발자</h2>
+          <p className="subSectiontxt">웹 에이전시에서 서비스 개발까지 <br className='mb'/>프론트 담당을 하며, 웹에 대해서 <br className='mb'/>공부하고 고민하고 있습니다. <br />새로운것에 대한 도전을 두려워하지 않으며 '배움에 있어 높고 낮음이 없다'는 생각을 가지고 있습니다.</p>
           <div className="line"><img src={line_03} alt="line_03" /></div>
           <p className="subSectiontxt">빠르게 변화하는 웹 시장을 무작정 따라가기 보다는 적절한 상황에 필요한 기술을 사용하고,<br/>동료들과 원활한 커뮤니케이션으로 업무효율을 높이고자 합니다.</p>
         </div>
