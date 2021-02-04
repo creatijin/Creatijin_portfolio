@@ -95,9 +95,9 @@ class App extends Component {
         </div>
         <div className="section subSection" id="Page2">
           <h2 className="subSectiontitle">삽질하며 성장하는<br className='mb'/>개발자</h2>
-          <p className="subSectiontxt">웹 에이전시에서 서비스 개발까지 <br className='mb'/>프론트 담당을 하며, 웹에 대해서 <br className='mb'/>공부하고 고민하고 있습니다. <br />새로운것에 대한 도전을 두려워하지 않으며 '배움에 있어 높고 낮음이 없다'는 생각을 가지고 있습니다.</p>
+          <p className="subSectiontxt">웹 에이전시에서 서비스 개발까지 <br className='mb'/>프론트 담당을 하며, 웹에 대해서 <br className='mb'/>공부하고 고민하고 있습니다. <br />새로운 것에 대한 도전을 두려워하지 않으며 '배움에 있어 높고 낮음이 없다'는 생각을 가지고 있습니다.</p>
           <div className="line"><img src={line_03} alt="line_03" /></div>
-          <p className="subSectiontxt">빠르게 변화하는 웹 시장을 무작정 따라가기 보다는 적절한 상황에 필요한 기술을 사용하고,<br/>동료들과 원활한 커뮤니케이션으로 업무효율을 높이고자 합니다.</p>
+          <p className="subSectiontxt">빠르게 변화하는 웹 시장을 무작정 따라가기보다는 적절한 상황에 필요한 기술을 사용하고,<br/>동료들과 원활한 커뮤니케이션으로 업무 효율을 높이고자 합니다.</p>
         </div>
         <div className="section section_01" id="Page3">
           <div className="section_inner inner_mh">
@@ -110,14 +110,14 @@ class App extends Component {
             img={spaaaade}
             worktitle={'스페이드컴퍼니'}
             worktxt={'웹 에이전시'}
-            workcontant={'웹 에이전시에서 퍼블리셔로써 전반적인 웹 사이트 제작 업무를 맡아서 진행 했습니다. 기획자,디자이너와 함께 커뮤니케이션을 통하여 원활한 업무환경을 만들었습니다. 그 외에도 사내 쇼핑몰 유지보수 및 사내 사업도 참여 했습니다. '}
+            workcontant={'웹 에이전시에서 퍼블리셔로써 전반적인 웹 사이트 제작 업무를 맡아서 진행 했습니다. 기획자,디자이너와 함께 커뮤니케이션을 통하여 원활한 업무환경을 만들었습니다. 그 외에도 사내 쇼핑몰 유지 보수 및 사내 사업도 참여했습니다. '}
             stack={'Html, CSS, SCSS, JavaScript, jQuery, cafe24, 고도몰, WordPress, XE, 그누보드'}
           />
           <WorkList
             img={cangyun}
             worktitle={'(주)창운코리아'}
             worktxt={'스포츠 서비스/소프트웨어 개발'}
-            workcontant={'데이터 사업부에 Front-end를 담당했으며, 기존에 있던 서비스를 유지보수하는 일이 아니라 처음부터 기획,제작에 참여했습니다. 창운코리아 자사 홈페이지 제작, DRX팀 홈페이지 제작, 내부 프로젝트 Loga, Log를 진행했습니다.'}
+            workcontant={'데이터 사업부에 Front-end를 담당했으며, 기존에 있던 서비스를 유지 보수하는 일이 아니라 처음부터 기획,제작에 참여했습니다. 창운코리아 자사 홈페이지 제작, DRX팀 홈페이지 제작, 내부 프로젝트 Loga, Log를 진행했습니다.'}
             stack={'Html, CSS, SCSS, JavaScript, React, Redux, TypeScript'}
           />
         </div>
